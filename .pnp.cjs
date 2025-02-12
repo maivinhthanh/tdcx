@@ -38,6 +38,8 @@ const RAW_RUNTIME_STATE =
           ["@testing-library/react", "virtual:4e5897474744e9cc84b69a76013ec185844f5eaac8308b3d65b20494765ac37f5c13f270a1631e20e020007f77feeeedecf23380ea79f71fafb2773656ae69cd#npm:16.2.0"],\
           ["@testing-library/user-event", "virtual:4e5897474744e9cc84b69a76013ec185844f5eaac8308b3d65b20494765ac37f5c13f270a1631e20e020007f77feeeedecf23380ea79f71fafb2773656ae69cd#npm:14.6.1"],\
           ["@types/babel__preset-env", "npm:7.10.0"],\
+          ["@types/jest", "npm:29.5.14"],\
+          ["@types/node", "npm:22.13.1"],\
           ["@types/react", "npm:19.0.8"],\
           ["@types/react-dom", "virtual:4e5897474744e9cc84b69a76013ec185844f5eaac8308b3d65b20494765ac37f5c13f270a1631e20e020007f77feeeedecf23380ea79f71fafb2773656ae69cd#npm:19.0.3"],\
           ["@vitejs/plugin-react-swc", "virtual:4e5897474744e9cc84b69a76013ec185844f5eaac8308b3d65b20494765ac37f5c13f270a1631e20e020007f77feeeedecf23380ea79f71fafb2773656ae69cd#npm:3.8.0"],\
@@ -4652,6 +4654,17 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["@types/istanbul-reports", "npm:3.0.4"],\
           ["@types/istanbul-lib-report", "npm:3.0.3"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@types/jest", [\
+      ["npm:29.5.14", {\
+        "packageLocation": "../../../.yarn/berry/cache/@types-jest-npm-29.5.14-506446c38e-10c0.zip/node_modules/@types/jest/",\
+        "packageDependencies": [\
+          ["@types/jest", "npm:29.5.14"],\
+          ["expect", "npm:29.7.0"],\
+          ["pretty-format", "npm:29.7.0"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -9580,6 +9593,8 @@ const RAW_RUNTIME_STATE =
           ["@testing-library/react", "virtual:4e5897474744e9cc84b69a76013ec185844f5eaac8308b3d65b20494765ac37f5c13f270a1631e20e020007f77feeeedecf23380ea79f71fafb2773656ae69cd#npm:16.2.0"],\
           ["@testing-library/user-event", "virtual:4e5897474744e9cc84b69a76013ec185844f5eaac8308b3d65b20494765ac37f5c13f270a1631e20e020007f77feeeedecf23380ea79f71fafb2773656ae69cd#npm:14.6.1"],\
           ["@types/babel__preset-env", "npm:7.10.0"],\
+          ["@types/jest", "npm:29.5.14"],\
+          ["@types/node", "npm:22.13.1"],\
           ["@types/react", "npm:19.0.8"],\
           ["@types/react-dom", "virtual:4e5897474744e9cc84b69a76013ec185844f5eaac8308b3d65b20494765ac37f5c13f270a1631e20e020007f77feeeedecf23380ea79f71fafb2773656ae69cd#npm:19.0.3"],\
           ["@vitejs/plugin-react-swc", "virtual:4e5897474744e9cc84b69a76013ec185844f5eaac8308b3d65b20494765ac37f5c13f270a1631e20e020007f77feeeedecf23380ea79f71fafb2773656ae69cd#npm:3.8.0"],\
@@ -9983,6 +9998,61 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "SOFT"\
       }],\
+      ["virtual:43f1403b51a9740c6a399492407337064db37944534842908352fabae48791a5553e838f5aabfb97ee251dc92a1696e08d88f723246317292e34ba126982eac2#npm:6.1.0", {\
+        "packageLocation": "./.yarn/__virtual__/vite-virtual-330a69264b/4/.yarn/berry/cache/vite-npm-6.1.0-47729056a0-10c0.zip/node_modules/vite/",\
+        "packageDependencies": [\
+          ["vite", "virtual:43f1403b51a9740c6a399492407337064db37944534842908352fabae48791a5553e838f5aabfb97ee251dc92a1696e08d88f723246317292e34ba126982eac2#npm:6.1.0"],\
+          ["@types/jiti", null],\
+          ["@types/less", null],\
+          ["@types/lightningcss", null],\
+          ["@types/node", null],\
+          ["@types/sass", null],\
+          ["@types/sass-embedded", null],\
+          ["@types/stylus", null],\
+          ["@types/sugarss", null],\
+          ["@types/terser", null],\
+          ["@types/tsx", null],\
+          ["@types/yaml", null],\
+          ["esbuild", "npm:0.24.2"],\
+          ["fsevents", "patch:fsevents@npm%3A2.3.3#optional!builtin<compat/fsevents>::version=2.3.3&hash=df0bf1"],\
+          ["jiti", null],\
+          ["less", null],\
+          ["lightningcss", null],\
+          ["postcss", "npm:8.5.2"],\
+          ["rollup", "npm:4.34.6"],\
+          ["sass", null],\
+          ["sass-embedded", null],\
+          ["stylus", null],\
+          ["sugarss", null],\
+          ["terser", null],\
+          ["tsx", null],\
+          ["yaml", null]\
+        ],\
+        "packagePeers": [\
+          "@types/jiti",\
+          "@types/less",\
+          "@types/lightningcss",\
+          "@types/node",\
+          "@types/sass-embedded",\
+          "@types/sass",\
+          "@types/stylus",\
+          "@types/sugarss",\
+          "@types/terser",\
+          "@types/tsx",\
+          "@types/yaml",\
+          "jiti",\
+          "less",\
+          "lightningcss",\
+          "sass-embedded",\
+          "sass",\
+          "stylus",\
+          "sugarss",\
+          "terser",\
+          "tsx",\
+          "yaml"\
+        ],\
+        "linkType": "HARD"\
+      }],\
       ["virtual:4e5897474744e9cc84b69a76013ec185844f5eaac8308b3d65b20494765ac37f5c13f270a1631e20e020007f77feeeedecf23380ea79f71fafb2773656ae69cd#npm:6.1.0", {\
         "packageLocation": "./.yarn/__virtual__/vite-virtual-916431a61b/4/.yarn/berry/cache/vite-npm-6.1.0-47729056a0-10c0.zip/node_modules/vite/",\
         "packageDependencies": [\
@@ -9990,7 +10060,7 @@ const RAW_RUNTIME_STATE =
           ["@types/jiti", null],\
           ["@types/less", null],\
           ["@types/lightningcss", null],\
-          ["@types/node", null],\
+          ["@types/node", "npm:22.13.1"],\
           ["@types/sass", null],\
           ["@types/sass-embedded", null],\
           ["@types/stylus", null],\
@@ -10048,7 +10118,7 @@ const RAW_RUNTIME_STATE =
           ["debug", "virtual:616e5e7b7fd515ceedfe6fcc37ff24971f096a0a796991458957e749f6da27635ff7765d9f1079be5f0f634d5065926fcaa8d0e9bfab5ece1e690fb0c4dec4f4#npm:4.4.0"],\
           ["es-module-lexer", "npm:1.6.0"],\
           ["pathe", "npm:2.0.3"],\
-          ["vite", "virtual:4e5897474744e9cc84b69a76013ec185844f5eaac8308b3d65b20494765ac37f5c13f270a1631e20e020007f77feeeedecf23380ea79f71fafb2773656ae69cd#npm:6.1.0"]\
+          ["vite", "virtual:43f1403b51a9740c6a399492407337064db37944534842908352fabae48791a5553e838f5aabfb97ee251dc92a1696e08d88f723246317292e34ba126982eac2#npm:6.1.0"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -10070,7 +10140,7 @@ const RAW_RUNTIME_STATE =
           ["@types/edge-runtime__vm", null],\
           ["@types/happy-dom", null],\
           ["@types/jsdom", null],\
-          ["@types/node", null],\
+          ["@types/node", "npm:22.13.1"],\
           ["@types/vitest__browser", null],\
           ["@types/vitest__ui", null],\
           ["@vitest/browser", null],\
