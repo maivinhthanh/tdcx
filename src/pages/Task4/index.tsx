@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import axios from "axios";
 import Card from "src/components/Card";
+import { useNavigate } from "react-router-dom";
 
 interface Post {
   id: number;
@@ -12,6 +13,7 @@ export default function PostList() {
   const [posts, setPosts] = useState<Post[]>([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState("");
+  const navigate = useNavigate();
 
   useEffect(() => {
     fetchPosts();
@@ -52,7 +54,7 @@ export default function PostList() {
               title={post.title}
               image={`https://picsum.photos/200/300.webp`} // Placeholder image
               description={post.body.substring(0, 50) + "..."}
-              onReadMore={() => window.location.href = `/task-4/${post.id}`}
+              onReadMore={() => navigate(`/task-4/${post.id}`)}
             />
           ))}
         </div>
