@@ -14,7 +14,7 @@ const routes: RouteObject[] = [
     element: <Outlet />,
     children: [
       {
-        path: "",
+        path: "/",
         element: <Layout />,
         children: [
           {

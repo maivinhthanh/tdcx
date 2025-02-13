@@ -1,8 +1,10 @@
+const BASE_URL = "/"; 
+
 const routeStrings = {
-  task123: '/',
-  task4: '/task-4',
-  task5: 'task-5',
-  task7: 'task-7'
+  task123: `${BASE_URL}/`,
+  task4: `${BASE_URL}/task-4`,
+  task5: `${BASE_URL}/task-5`,
+  task7: `${BASE_URL}/task-7`,
 };
 
 export default routeStrings;

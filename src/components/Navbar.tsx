@@ -6,11 +6,12 @@ export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   const location = useLocation(); // Get current route
 
+
   const navLinks = [
-    { path: "/", label: "Task 123" },
-    { path: "/task-4", label: "Task 46" },
-    { path: "/task-5", label: "Task 5" },
-    { path: "/task-7", label: "Task 7" },
+    { path: `/`, label: "Task 123" },
+    { path: `/task-4`, label: "Task 46" },
+    { path: `/task-5`, label: "Task 5" },
+    { path: `/task-7`, label: "Task 7" },
   ];
 
   return (
